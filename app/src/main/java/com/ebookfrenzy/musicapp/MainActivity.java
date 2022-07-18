@@ -1,8 +1,10 @@
-package com.ebookfrenzy.musicplayer;
+package com.ebookfrenzy.musicapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -11,4 +13,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    Button btn = findViewById(R.id.nextBtn);
+
+    btn.setBackgroundColor(Color.white);
+    btn.setTextColor(Color.black);
 }

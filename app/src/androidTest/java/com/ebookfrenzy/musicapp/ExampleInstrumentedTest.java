@@ -1,4 +1,4 @@
-package com.ebookfrenzy.musicplayer;
+package com.ebookfrenzy.musicapp;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.ebookfrenzy.musicplayer", appContext.getPackageName());
+        assertEquals("com.ebookfrenzy.musicapp", appContext.getPackageName());
     }
 }

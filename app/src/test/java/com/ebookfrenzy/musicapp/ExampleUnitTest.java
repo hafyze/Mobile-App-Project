@@ -1,4 +1,4 @@
-package com.ebookfrenzy.musicplayer;
+package com.ebookfrenzy.musicapp;
 
 import org.junit.Test;
 
