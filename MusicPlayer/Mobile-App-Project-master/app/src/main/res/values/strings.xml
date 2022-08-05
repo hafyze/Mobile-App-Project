@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">loginsqlite</string>
+    <string name="song_title" />
+    <string name="songs_list" />
+    <string name="sign_in">Sign in</string>
+    <string name="password">Password</string>
+    <string name="imageview">imageView</string>
+    <string name="existing_user_go_to_sign_in_page">Existing user? Go to Sign in page</string>
+    <string name="register">Register</string>
+</resources>
